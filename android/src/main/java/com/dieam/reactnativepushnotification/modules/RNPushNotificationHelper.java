@@ -273,11 +273,6 @@ public class RNPushNotificationHelper {
 
             if (bigText == null) {
 
-                String message = bundle.getString("message");
-                if(message == null){
-                    message = bundle.getString("msg");
-                }
-
                 bigText = message;
             }
 
